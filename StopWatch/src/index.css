@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@layer components {
+  .root {
+    @apply h-screen bg-linear-to-b from-red-500 via-pink-500 to-green-500  
+      flex flex-col justify-center items-center gap-4;
+  }
+
+  .stopwatch {
+    @apply text-2xl text-purple-950 font-bold;
+  }
+  .btn {
+    @apply bg-blue-500 text-white font-bold py-2 px-4 mx-1 rounded cursor-pointer hover:bg-blue-700 active:scale-95 transition-transform;
+  }
+}
