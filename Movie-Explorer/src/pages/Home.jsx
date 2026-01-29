@@ -10,7 +10,7 @@ export const Home = () => {
   const fetchMovies = async (query) => {
     try {
       const res = await fetch(
-        `http://www.omdbapi.com/?apikey=${import.meta.env.VITE_API_KEY}&s=${query}`,
+        `https://www.omdbapi.com/?apikey=${import.meta.env.VITE_API_KEY}&s=${query}`,
       );
       const data = await res.json();
       setMovies(data.Search || []);
