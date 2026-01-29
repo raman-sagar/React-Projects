@@ -29,10 +29,6 @@ body {
   margin: 1rem;
 }
 
-.searchInput {
-  padding: 10px;
-}
-
 .movie-list {
   display: flex;
   flex-wrap: wrap;
